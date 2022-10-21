@@ -11,6 +11,7 @@ export const Content = styled.div`
   margin: 0 auto;
   padding: 2rem 1rem 12rem;
   max-width: 1120px;
+
   button {
     padding: 0 2rem;
     height: 3rem;
@@ -20,6 +21,7 @@ export const Content = styled.div`
     border: 0;
     border-radius: 0.25rem;
     transition: filter 0.2s ease-in-out;
+
     &:hover {
       filter: brightness(0.9);
     }
